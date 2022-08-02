@@ -1,4 +1,4 @@
-FROM vaultwarden/server:latest
+FROM whyour/qinglong:latest
 
 ARG PORT
 ENV ROCKET_PORT ${PORT}
